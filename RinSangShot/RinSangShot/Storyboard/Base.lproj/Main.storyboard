@@ -25,6 +25,9 @@
                                         <rect key="frame" x="34" y="35" width="44" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Album"/>
+                                        <connections>
+                                            <action selector="ShowAlbum:" destination="CYc-dL-7cR" eventType="touchUpInside" id="wIw-Zo-MQ4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6F-aC-ggT">
                                         <rect key="frame" x="171.66666666666666" y="35" width="32" height="30"/>
